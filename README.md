@@ -47,7 +47,12 @@ Develop a system capable of detecting and counting birds in video footage while 
 - Minimal computational requirements
 
 ---
+📹 Sample Output Video
+Due to file size limitations, the sample output video is hosted on Google Drive:
 
+[⬇️ Download Sample Output Video](https://drive.google.com/file/d/14BU9sYwYMNhJnTvp8_cxpogKNPZkmzJv/view?usp=drive_link)
+
+This video demonstrates real-time bird detection, multi-frame tracking, and weight estimation in action.
 ## Approach & Methodology
 
 ### Overall Strategy
