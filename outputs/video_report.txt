@@ -1,0 +1,11 @@
+CHICKEN DETECTION & WEIGHT ESTIMATION REPORT
+============================================================
+
+Video: videos/test_video.mp4
+Total Frames: 5545
+Processed Frames: 555
+
+Average Count: 55.4 chickens
+Maximum Count: 74 chickens
+Total Weight: 63046.85 kg
+Avg Weight/Bird: 2.05 kg
