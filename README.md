@@ -61,9 +61,9 @@ We evaluated **three distinct approaches** to optimize bird detection and select
 
 | Approach | Detection Accuracy | Setup Time | GPU Required | Status |
 |----------|-------------------|-----------|--------------|--------|
-| **YOLOv8n Generic Model** | 40-50% | 30 minutes | No | ❌ Rejected |
-| **YOLOv8 Custom Training** | 70-75% | 2-3 weeks | Yes | ⏳ Deferred |
-| **Roboflow Pre-built Model** | 85-90% | 2-3 hours | No | ✅ **Selected** |
+| **YOLOv8n Generic Model** | 40-50% | 30 minutes | No |  Rejected |
+| **YOLOv8 Custom Training** | 70-75% | 2-3 weeks | Yes |  Deferred |
+| **Roboflow Pre-built Model** | 85-90% | 2-3 hours | No |  **Selected** |
 
 ### Why Different Approaches?
 
@@ -109,18 +109,18 @@ We selected Roboflow because it provided the optimal balance of accuracy, speed,
 - Scalable for high-volume inference
 
 **Advantages**
-- ✅ Fastest time to production (2-3 hours setup)
-- ✅ Highest accuracy without training (85-90%)
-- ✅ No computational overhead locally
-- ✅ Cloud-based scalability
-- ✅ Regular model updates from Roboflow
+- Fastest time to production (2-3 hours setup)
+- Highest accuracy without training (85-90%)
+- No computational overhead locally
+- Cloud-based scalability
+- Regular model updates from Roboflow
 
 **Trade-offs**
-- ⚠️ API rate limits on free tier
-- ⚠️ Cost scales with inference volume
-- ⚠️ Internet connectivity required
-- ⚠️ Less control over model architecture
-- ⚠️ API latency (~100-150ms per frame)
+-  API rate limits on free tier
+-  Cost scales with inference volume
+-  Internet connectivity required
+-  Less control over model architecture
+-  API latency (~100-150ms per frame)
 
 ---
 
@@ -231,7 +231,7 @@ Implementation Time
 
 ## Features
 
-### Implemented Features ✅
+### Implemented Features 
 - [x] Video frame extraction and processing
 - [x] Real-time bird detection with high accuracy
 - [x] Multi-frame bird tracking
@@ -467,7 +467,7 @@ bird-detection/
 
 ### Key Recommendations
 
-✅ **DO**
+**DO**
 - Evaluate multiple approaches before implementation
 - Choose based on constraints (time, budget, resources)
 - Use domain-specific models when available
@@ -506,12 +506,12 @@ bird-detection/
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| Detection Accuracy | 87.5% | ✅ Excellent |
-| Setup Time | 2-3 hours | ✅ Efficient |
-| Processing Speed | 90ms/frame | ✅ Good |
-| Tracking Continuity | 92% | ✅ Reliable |
-| Weight Estimation Error | ±12.8% | ✅ Acceptable |
-| Resource Requirements | Minimal | ✅ Scalable |
+| Detection Accuracy | 87.5% |  Excellent |
+| Setup Time | 2-3 hours |  Efficient |
+| Processing Speed | 90ms/frame |  Good |
+| Tracking Continuity | 92% |  Reliable |
+| Weight Estimation Error | ±12.8% |  Acceptable |
+| Resource Requirements | Minimal |  Scalable |
 
 ---
 
@@ -524,7 +524,7 @@ Project Requirements
     ↓
 Time Constraint < 2 weeks?
     ↓
-Yes: Use Pre-built Model (Roboflow) ✅
+Yes: Use Pre-built Model (Roboflow) 
     ↓
 No: Do you have training data?
     ↓
@@ -551,13 +551,7 @@ Contributions are welcome! Please:
 4. Push to the branch
 5. Open a Pull Request
 
----
 
-## License
-
-MIT License - see LICENSE file for details
-
----
 
 ## Contact & Support
 
@@ -586,5 +580,5 @@ MIT License - see LICENSE file for details
 ---
 
 **Last Updated**: December 25, 2025  
-**Status**: ✅ Active & Maintained  
+**Status**:  Active & Maintained  
 **Version**: 1.0.0
